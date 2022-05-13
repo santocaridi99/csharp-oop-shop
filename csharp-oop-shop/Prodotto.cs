@@ -9,7 +9,7 @@ namespace csharp_oop_shop
     internal class Prodotto
     {
         private int code;
-        private string nome;
+        public string nome;
         public string description;
         public double price;
         public double iva;
