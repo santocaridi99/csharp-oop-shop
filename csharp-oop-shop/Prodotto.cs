@@ -20,7 +20,6 @@ namespace csharp_oop_shop
         public int Code
         {
             get { return code; }
-            set { code = value; }   
         }
 
         public string Nome
@@ -53,7 +52,7 @@ namespace csharp_oop_shop
         public Prodotto(string nome , string description , double price , double iva)
         {
             randomNum = new Random();
-            Code = randomNum.Next();
+            code = randomNum.Next();
             this.Nome = nome;
             this.Description = description;
             this.Price = price;
